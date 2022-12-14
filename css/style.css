@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(45deg, cyan, yellow);
+  text-align: center;
+}
+
+legend {
+  border: 1px solid dodgerblue;
+  padding: 10px;
+  text-align: center;
+  background-color: dodgerblue;
+  border-radius: 8px;
+}
+
+.loginBox,
+.box {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  color: #fff;
+}
+
+.loginBox {
+  padding: 80px;
+}
+
+fieldset {
+  border: 3px solid dodgerblue;
+}
+
+.box {
+  padding: 15px;
+  width: 20%;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.inputLogin {
+  padding: 15px;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputUser {
+  background: none;
+  border-bottom: 1px solid white;
+  color: #fff;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.labelInput {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+  top: -20px;
+  font-size: 15px;
+  color: dodgerblue;
+}
+
+.devolucao {
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.inputSubmit {
+  background-color: dodgerblue;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.inputSubmit:hover {
+  background-color: deepskyblue;
+  cursor: pointer;
+}
+
+/* Tabela em sistema.php */
+
+.table-bg {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px 15px 0 0;
+}
+
+/* Font Awesome Icon */
+.arrowIcon {
+  position: absolute;
+  font-size: 50px;
+  text-decoration: none;
+  color: dodgerblue;
+  left: 5%;
+  top: 5%;
+}
