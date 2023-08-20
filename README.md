@@ -1,2 +1,2 @@
 # emprestados
-Projeto realizado durante a matéria de Programação Web da PUCPR.
+Projeto criado para a matéria de Programação Web da PUCPR.
